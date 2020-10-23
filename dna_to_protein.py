@@ -56,7 +56,6 @@ def count_amino_number(rna):
 def main():
     dna = input('Enter the DNA sequence:\n')
     dna = dna.upper()
-    print (len(dna)%3)
     
     if check_dna(dna) == True:
         print ('DNA: {}'.format(dna))
